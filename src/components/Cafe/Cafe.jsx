@@ -15,7 +15,7 @@ function Cafe({cafe}) {
             { cafe.criteria.map( criterion => <span key={criterion}>{criterion}</span> )}
           </p>
         </div>
-        <a href="target=_blank" href={gmapsUrl} >Show the map 📍</a>
+        <a target="_blank" href={gmapsUrl} >Show the map 📍</a>
       </div>
     </div>
   );
